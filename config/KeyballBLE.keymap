@@ -61,7 +61,7 @@
 &kp Q                              &kp W       &kp E           &kp R                        &kp T                                                            &kp Y        &kp U  &kp I       &kp O      &kp L
 &kp A                              &kp S       &kp D           &kp F                        &kp G        &mkp LCLK                        &kp BACKSLASH      &kp H        &kp J  &kp K       &kp B      &kp MINUS
 &mt LEFT_SHIFT Z                   &kp X       &kp V           &kp C                        &kp P        &mo 4                            &kp RIGHT_BRACKET  &kp N        &kp M  &kp PERIOD  &kp COMMA  &kp SLASH
-&mt LEFT_CONTROL LC(LEFT_CONTROL)  &kp ESCAPE  &kp UNDERSCORE  &lt_to_layer_0 4 INT_HENKAN  &lt 1 SPACE  &mt LEFT_SHIFT INT_MUHENKAN      &kp BACKSPACE      &lt 1 ENTER                                &kp DEL
+&mt LEFT_CONTROL LC(LEFT_CONTROL)  &kp ESCAPE  &kp UNDERSCORE  &lt_to_layer_0 4 INT_HENKAN  &lt 1 SPACE  &mt LEFT_SHIFT INT_MUHENKAN      &kp BACKSPACE      &lt 1 ENTER                                &tog 4
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -78,10 +78,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                              &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &kp KP_NUMBER_0      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD       &kp EQUAL            &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&trans                      &trans           &trans           &trans           &trans           &trans               &trans          &trans                                                                     &kp PIPE
             >;
         };
 
@@ -99,7 +99,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                         &trans     &kp LC(X)       &kp LC(C)       &trans     &kp LA(LEFT)
-&none   &none   &none   &none   &none   &mkp LCLK      &trans  &kp LC(V)  &mkp LCLK       &kp UP_ARROW    &mkp RCLK  &mkp MB5
+&none   &none   &none   &none   &none   &mkp LCLK      &trans  &kp LC(V)  &mkp LCLK       &kp UP_ARROW    &mkp RCLK  &tog 5
 &trans  &trans  &trans  &trans  &trans  &mkp RCLK      &trans  &kp N      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
 &trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans                                                &to 0
             >;
