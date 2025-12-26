@@ -58,10 +58,10 @@
 
         default_layer {
             bindings = <
-&kp Q                              &kp W       &kp E               &kp R                        &kp T                                                              &kp Y        &kp U  &lt 5 I     &kp O      &kp L
-&kp A                              &kp S       &lt_to_layer_0 4 D  &lt_to_layer_0 4 F           &kp G        &mkp LCLK                          &kp BACKSLASH      &kp H        &kp J  &kp K       &kp B      &kp MINUS
-&mt LEFT_SHIFT Z                   &kp X       &kp V               &kp C                        &kp P        &mkp RCLK                          &kp RIGHT_BRACKET  &kp N        &kp M  &kp PERIOD  &kp COMMA  &kp SLASH
-&mt LEFT_CONTROL LC(LEFT_CONTROL)  &kp ESCAPE  &kp UNDER           &lt_to_layer_0 6 INT_HENKAN  &lt 1 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE      &lt 1 ENTER                                &kp DEL
+&kp Q                              &kp W       &kp E               &kp R                        &kp T                                                            &kp Y        &kp U  &lt 5 I     &kp O      &kp L
+&kp A                              &kp S       &lt_to_layer_0 4 D  &lt_to_layer_0 4 F           &kp G        &mkp LCLK                        &kp BACKSLASH      &kp H        &kp J  &kp K       &kp B      &kp MINUS
+&mt LEFT_SHIFT Z                   &kp X       &kp V               &kp C                        &kp P        &mkp RCLK                        &kp RIGHT_BRACKET  &kp N        &kp M  &kp PERIOD  &kp COMMA  &kp SLASH
+&mt LEFT_CONTROL LC(LEFT_CONTROL)  &kp ESCAPE  &kp UNDER           &lt_to_layer_0 6 INT_HENKAN  &lt 1 SPACE  &mt LEFT_SHIFT INT_MUHENKAN      &kp BACKSPACE      &lt 1 ENTER                                &kp DEL
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -98,10 +98,10 @@
 
         MOUSE {
             bindings = <
-&trans    &trans     &trans     &trans     &trans                           &trans    &trans     &trans     &trans     &trans
-&mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB5  &mkp LCLK      &trans  &mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB5
-&trans    &trans     &trans     &trans     &trans    &mkp RCLK      &trans  &trans    &trans     &trans     &trans     &trans
-&trans    &trans     &trans     &trans     &trans    &trans         &trans  &trans                                     &trans
+&trans  &trans  &trans  &trans  &trans                         &trans     &kp LC(X)       &kp LC(C)       &trans     &kp LA(LEFT)
+&none   &none   &none   &none   &none   &mkp LCLK      &trans  &kp LC(V)  &mkp LCLK       &kp UP_ARROW    &mkp RCLK  &mkp MB5
+&trans  &trans  &trans  &trans  &trans  &mkp RCLK      &trans  &kp N      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans                                                &to 0
             >;
         };
 
