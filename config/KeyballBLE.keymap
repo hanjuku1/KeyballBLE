@@ -95,7 +95,7 @@
 &none             &none              &none     &kp TILDE   &kp SLASH                              &none          &kp ASTERISK  &kp AT_SIGN    &kp GRAVE      &kp CARET
 &kp EXCLAMATION   &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT    &trans      &none       &kp AMPERSAND  &kp SQT       &kp JP_LPAREN  &kp JP_RPAREN  &kp QUESTION
 &none             &none              &kp V     &kp PLUS    &kp SEMICOLON  &trans      &trans      &kp COLON      &trans        &trans         &trans         &kp INT_YEN
-&kp LEFT_CONTROL  &kp LEFT_WIN       &kp TAB   &trans      &trans         &trans      &kp DELETE  &kp ENTER                                                  &to 0
+&kp LEFT_CONTROL  &kp LEFT_WIN       &kp TAB   &trans      &trans         &trans      &kp DELETE  &lt 2 ENTER                                                &to 0
             >;
         };
 
