@@ -83,7 +83,7 @@
             bindings = <
 &kp Q                   &kp W                &kp E              &kp R                  &kp T                                                    &kp Y        &kp U  &kp I       &kp O      &kp L
 &kp A                   &kp S                &kp D              &kp F                  &kp G        &mkp MCLK                &mo 6              &kp H        &kp J  &kp K       &kp B      &kp MINUS
-&kp Z                   &kp X                &kp V              &kp C                  &kp P        &kp RIGHT_BRACKET        &kp RIGHT_BRACKET  &kp N        &kp M  &kp PERIOD  &kp COMMA  &kp SLASH
+&kp Z                   &kp X                &kp V              &kp A                  &kp P        &kp RIGHT_BRACKET        &kp RIGHT_BRACKET  &kp N        &kp M  &kp PERIOD  &kp COMMA  &kp SLASH
 &mt LEFT_CONTROL CARET  &mt LEFT_ALT ESCAPE  &kp JP_UNDERSCORE  &lt_to_layer_0 4 INT4  &lt 1 SPACE  &mt LEFT_SHIFT INT5      &kp BACKSPACE      &lt 2 ENTER                                &tog 4
             >;
 
@@ -101,10 +101,10 @@
 
         NUM {
             bindings = <
-&kp SLASH         &kp N7   &kp N8  &kp N9  &kp SLASH                                     &kp SLASH        &kp N7  &kp N8  &kp N9  &kp SLASH
-&kp JP_ASTERISK   &kp N4   &kp N5  &kp N6  &kp N0      &none       &none                 &kp JP_ASTERISK  &kp N4  &kp N5  &kp N6  &kp N0
-&kp MINUS         &kp N1   &kp N2  &kp N3  &kp PERIOD  &none       &kp JP_PLUS   &kp MINUS        &kp N1  &kp N2  &kp N3  &kp PERIOD
-&kp LEFT_CONTROL  &kp TAB  &trans  &trans  &trans      &trans      &kp BACKSPACE         &lt 2 ENTER
+&kp SLASH         &kp N7   &kp N8  &kp N9  &kp SLASH                              &kp SLASH        &kp N7  &kp N8  &kp N9  &kp SLASH
+&kp JP_ASTERISK   &kp N4   &kp N5  &kp N6  &kp N0      &none       &none          &kp JP_ASTERISK  &kp N4  &kp N5  &kp N6  &kp N0
+&kp MINUS         &kp N1   &kp N2  &kp N3  &kp PERIOD  &none       &kp JP_PLUS    &kp MINUS        &kp N1  &kp N2  &kp N3  &kp PERIOD
+&kp LEFT_CONTROL  &kp TAB  &trans  &trans  &trans      &trans      &kp BACKSPACE  &lt 2 ENTER
             >;
         };
 
