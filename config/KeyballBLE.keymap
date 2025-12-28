@@ -48,11 +48,11 @@
     };
 
     macros {
-        to_layer_0: to_layer_0 {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
-            label = "TO_LAYER_0";
+        PP1: to_layer_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp S &kp N0 &kp N0 &kp N1>;
+            label = "PP1";
         };
     };
 
@@ -60,7 +60,7 @@
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
+            bindings = <&mo>, <&PP1>;
 
             #binding-cells = <2>;
             tapping-term-ms = <500>;
@@ -123,7 +123,7 @@
             bindings = <
 &trans  &kp F7  &kp F8   &kp F9  &kp F10                             &kp LA(RIGHT_ARROW)  &kp LC(X)       &kp LC(C)       &trans     &kp LA(LEFT)
 &none   &kp F4  &kp F5   &kp F6  &kp F11  &mkp LCLK      &trans      &kp LC(V)            &mkp LCLK       &kp UP_ARROW    &mkp RCLK  &to 5
-&trans  &kp F1  &kp F2   &kp F3  &kp F12  &mo 6          &trans      &kp N                &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
+&PP1    &kp F1  &kp F2   &kp F3  &kp F12  &mo 6          &trans      &kp N                &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
 &trans  &trans  &kp TAB  &trans  &trans   &trans         &kp DELETE  &lt 2 ENTER                                                     &to 0
             >;
         };
