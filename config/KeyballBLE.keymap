@@ -101,10 +101,10 @@
 
         NUM {
             bindings = <
-&kp SLASH        &kp N7        &kp N8   &kp N9  &kp SLASH                       &kp SLASH        &kp N7  &kp N8  &kp N9  &kp SLASH
-&kp JP_ASTERISK  &kp N4        &kp N5   &kp N6  &kp N0      &none       &none   &kp JP_ASTERISK  &kp N4  &kp N5  &kp N6  &kp N0
-&kp MINUS        &kp N1        &kp N2   &kp N3  &kp PERIOD  &none       &kp JP_PLUS kp MINUS        &kp N1  &kp N2  &kp N3  &kp PERIOD
-&kp JP_PLUS      &kp LEFT_ALT  &kp TAB  &trans  &trans      &trans      &trans  &lt 2 ENTER                              &kp PIPE
+&kp SLASH        &kp N7   &kp N8  &kp N9  &kp SLASH                                     &kp SLASH        &kp N7  &kp N8  &kp N9      &kp SLASH
+&kp JP_ASTERISK  &kp N4   &kp N5  &kp N6  &kp N0      &none       &none                 &kp JP_ASTERISK  &kp N4  &kp N5  &kp N6      &kp N0
+&kp MINUS        &kp N1   &kp N2  &kp N3  &kp PERIOD  &to 2       &kp JP_PLUS kp MINUS  &kp N1           &kp N2  &kp N3  &kp PERIOD  &kp JP_PLUS
+&kp LEFT_ALT     &kp TAB  &trans  &trans  &trans      &trans      &lt 2 ENTER           &kp PIPE
             >;
         };
 
@@ -139,10 +139,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                                 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans     &trans      &studio_unlock  &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kt KP_N4  &trans      &bootloader     &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans     &trans      &trans          &trans                                                  &bt BT_CLR_ALL
+&trans  &trans        &trans        &trans        &trans                              &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans        &trans        &trans        &trans     &trans      &to 0        &trans        &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kt KP_N4  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans  &trans        &trans        &trans        &trans     &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
         };
     };
