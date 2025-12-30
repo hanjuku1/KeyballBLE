@@ -95,10 +95,10 @@
 
         default_layer {
             bindings = <
-&kp Q                   &kp W                &kp E              &kp R                  &kp T                                                    &kp Y        &kp U  &kp I       &kp O      &kp L
-&kp A                   &kp S                &kp D              &kp F                  &kp G        &mkp MCLK                &mo 6              &kp H        &kp J  &kp K       &kp B      &kp MINUS
-&kp Z                   &kp X                &kp V              &kp C                  &kp P        &kp JP_LBRACKET         &kp JP_RBRACKET  &kp N        &kp M  &kp PERIOD  &kp COMMA  &kp SLASH
-&mt LEFT_CONTROL CARET  &mt LEFT_ALT ESCAPE  &kp JP_UNDERSCORE  &lt 4 INTERNATIONAL_4  &lt 1 SPACE  &mt LEFT_SHIFT INT5      &kp BACKSPACE      &lt 2 ENTER                                &to 4
+&kp Q                   &kp W                &kp E              &kp R                  &kp T                                                  &kp Y        &kp U  &kp I       &kp O      &kp L
+&kp A                   &kp S                &kp D              &lt 4 F                &kp G        &mkp MCLK                &mo 6            &kp H        &kp J  &kp K       &kp B      &kp MINUS
+&kp Z                   &kp X                &kp V              &kp C                  &kp P        &kp JP_LBRACKET          &kp JP_RBRACKET  &kp N        &kp M  &kp PERIOD  &kp COMMA  &kp SLASH
+&mt LEFT_CONTROL CARET  &mt LEFT_ALT ESCAPE  &kp JP_UNDERSCORE  &lt 4 INTERNATIONAL_4  &lt 1 SPACE  &mt LEFT_SHIFT INT5      &kp BACKSPACE    &lt 2 ENTER                                &to 4
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -107,9 +107,9 @@
         FUNCTION {
             bindings = <
 &none             &none              &none     &kp JP_TILDE  &kp SLASH                              &none             &kp JP_DQUOTE  &kp JP_AT      &kp JP_BACKQUOTE  &kp JP_CARET
-&kp EXCLAMATION   &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR    &kp PERCENT    &trans      &none       &kp JP_AMPERSAND  &kp JP_QUOTE  &kp JP_LPAREN  &kp JP_RPAREN     &kp QUESTION
-&none             &none              &kp V     &kp PLUS      &kp SEMICOLON  &trans      &trans      &kp JP_COLON      &trans        &trans         &trans            &kp INT_YEN
-&kp LEFT_CONTROL  &kp LEFT_WIN       &kp TAB   &trans        &trans         &trans      &kp DELETE  &lt 2 ENTER                                                      &to 0
+&kp EXCLAMATION   &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR    &kp PERCENT    &trans      &none       &kp JP_AMPERSAND  &kp JP_QUOTE   &kp JP_LPAREN  &kp JP_RPAREN     &kp QUESTION
+&none             &none              &kp V     &kp PLUS      &kp SEMICOLON  &trans      &trans      &kp JP_COLON      &trans         &trans         &trans            &kp INT_YEN
+&kp LEFT_CONTROL  &kp LEFT_WIN       &kp TAB   &trans        &trans         &trans      &kp DELETE  &lt 2 ENTER                                                       &to 0
             >;
         };
 
